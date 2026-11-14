@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-14",
+  "status": "stopped_by_user_for_handoff",
+  "expanded_completed_epochs": 2,
+  "expanded_target_epochs": 30,
+  "checkpoints": {
+    "basic/weights/best.pt": {
+      "sha256": "d24b3221aa5d872117a42940b3b346ffbcc07c73f03eb22fc3399d05c3456cfa",
+      "bytes": 22517866,
+      "epoch_zero_based": -1,
+      "resumable": false,
+      "classes": {
+        "0": "surface_corrosion",
+        "1": "pipe_crack"
+      },
+      "parameters": 11136374
+    },
+    "expanded/weights/best.pt": {
+      "sha256": "db155bcbcc0070825aad674c710f230b1b9c0e376d1bd97aedf73238dc972cb9",
+      "bytes": 67124741,
+      "epoch_zero_based": 1,
+      "resumable": true,
+      "classes": {
+        "0": "surface_corrosion",
+        "1": "pipe_crack",
+        "2": "pipe_leak",
+        "3": "cable_insulation_damage",
+        "4": "fastener_issue"
+      },
+      "parameters": 11137535
+    },
+    "expanded/weights/last.pt": {
+      "sha256": "db155bcbcc0070825aad674c710f230b1b9c0e376d1bd97aedf73238dc972cb9",
+      "bytes": 67124741,
+      "epoch_zero_based": 1,
+      "resumable": true,
+      "classes": {
+        "0": "surface_corrosion",
+        "1": "pipe_crack",
+        "2": "pipe_leak",
+        "3": "cable_insulation_damage",
+        "4": "fastener_issue"
+      },
+      "parameters": 11137535
+    }
+  }
+}

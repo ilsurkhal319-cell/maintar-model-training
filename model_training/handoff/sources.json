@@ -1,0 +1,154 @@
+[
+  {
+    "project": "mavromati/rust-corrosion-detection-rd8mo",
+    "version": 2,
+    "cap": 1800,
+    "rules": [
+      [
+        "corrosion",
+        "surface_corrosion"
+      ]
+    ]
+  },
+  {
+    "project": "icdt-xht79/corrosion-v1cb1",
+    "version": 1,
+    "cap": 1200,
+    "negatives": 400,
+    "rules": [
+      [
+        "^(0|clean|non-corrosion)$",
+        null
+      ],
+      [
+        "corro|rust",
+        "surface_corrosion"
+      ]
+    ]
+  },
+  {
+    "project": "psm-lzkq8/corrosion-rsbnq",
+    "version": 1,
+    "cap": 600,
+    "rules": [
+      [
+        "corrosion",
+        "surface_corrosion"
+      ]
+    ]
+  },
+  {
+    "project": "sae-nxyhx/pipe-segmentation-rust",
+    "version": 1,
+    "cap": 500,
+    "rules": [
+      [
+        "deterioration",
+        "surface_corrosion"
+      ]
+    ]
+  },
+  {
+    "project": "pipe-corrosion-detection/pipe-corrosion-detection-aern8",
+    "version": 2,
+    "cap": 200,
+    "rules": [
+      [
+        "pitting|general|cui",
+        "surface_corrosion"
+      ]
+    ]
+  },
+  {
+    "project": "roboflow1-rz9go/pipe-leak-sptsu",
+    "version": 1,
+    "cap": 1300,
+    "rules": [
+      [
+        "leak",
+        "pipe_leak_pitting"
+      ]
+    ]
+  },
+  {
+    "project": "projects-gzqta/leak-k2xv1",
+    "version": 2,
+    "cap": 800,
+    "rules": [
+      [
+        "^leak$",
+        "pipe_leak_pitting"
+      ],
+      [
+        "^crack$",
+        "pipe_crack"
+      ]
+    ]
+  },
+  {
+    "project": "amsyar-mnuwm/pipe-crack-detection-u5qeo",
+    "version": 8,
+    "cap": 1100,
+    "negatives": 200,
+    "rules": [
+      [
+        "^normal$",
+        null
+      ],
+      [
+        "^crack$",
+        "pipe_crack"
+      ]
+    ]
+  },
+  {
+    "project": "abzs-workspace/pipe-crack-final",
+    "version": 1,
+    "cap": 600,
+    "rules": [
+      [
+        "^crack$",
+        "pipe_crack"
+      ]
+    ]
+  },
+  {
+    "project": "gazxard/pipe-crack-detection",
+    "version": 1,
+    "cap": 400,
+    "rules": [
+      [
+        "pipe crack",
+        "pipe_crack"
+      ]
+    ]
+  },
+  {
+    "project": "steel-defects-sdxqu/steel-loose-bolt",
+    "version": 2,
+    "cap": 700,
+    "negatives": 200,
+    "rules": [
+      [
+        "_tight$",
+        null
+      ],
+      [
+        "loose|no_nut|no_bolt",
+        "frame_corrosion_loose_bolts"
+      ]
+    ]
+  },
+  {
+    "project": "meine-arbeit/damage-wires",
+    "version": 1,
+    "cap": 430,
+    "repeat": 2,
+    "rules": [
+      [
+        "damage",
+        "cable_insulation_damage"
+      ]
+    ]
+  }
+]
